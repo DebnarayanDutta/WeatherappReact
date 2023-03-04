@@ -1,0 +1,25 @@
+.search-div {
+    background-color: black;
+    height: 800px;
+}
+
+.search-div h1{
+    color: aliceblue;
+    height: 60px;
+    width: 300px;
+    position: relative;
+    left: 20px;
+}
+
+.search-div input{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+}
+
+.search-div button{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
