@@ -1,0 +1,42 @@
+.info-div{
+    background-color: rgb(24, 14, 106);
+    height: 1000px;
+    color: aliceblue;
+    width: 1550px;
+    background-image: linear-gradient(blue,rgb(193, 193, 193));
+
+}
+
+.info-div h1{
+     color: aliceblue;
+    height: 60px;
+    width: 600px;
+    position: relative;
+    left: 60px;
+    font-size: 70px;
+    padding-top: 70px;
+}
+
+.location-info{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    
+}
+
+.location-info li{
+    margin-top: 20px;
+    font-size: 30px;
+    list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-div h1{ 
+    font-size: 50px;
+  }
+  .location-info li{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+}

@@ -7,7 +7,7 @@ import { WeatherProvider } from "./context/weatherContext";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <WeatherProvider>
         <Routes>
           <Route path="/" element={<Info />} />
